@@ -6,20 +6,16 @@ import insercion.InsertionOrder;
 public class HelloSortingApp {
 
     public static void main(String[] args) {
-//        int[] swapNumbers = {1, 3};
-//        Shared.swap(swapNumbers, 0, 1);
-//        System.out.println(Arrays.toString(swapNumbers));
 
         long start = System.nanoTime();
         burbuja();
         long estimatedTime = System.nanoTime() - start;
         System.out.println("Burbuja:" + estimatedTime);
-//
+
         start = System.nanoTime();
         seleccion();
         estimatedTime = System.nanoTime() - start;
         System.out.println("Selección:" + estimatedTime);
-
 
         start = System.nanoTime();
         insercion();

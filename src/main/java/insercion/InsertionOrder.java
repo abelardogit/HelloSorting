@@ -14,5 +14,4 @@ public class InsertionOrder {
         }
     }
 }
-// {15, 60, 8, 16, 44, 27, 12, 35};
 

@@ -2,7 +2,6 @@ package selection;
 
 import common.Shared;
 
-// {15, 60, 8, 16, 44, 27, 12, 35};
 public class SelectionSort {
     public static void order(Integer[] numbers) {
         int numberOfNumbers = numbers.length;
